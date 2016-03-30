@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Moodle Copy Unlocker",
+    "version": "0.1",
+    "icons": { "64": "icon64.png" },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://account.xbox.com/*/gameclip/*"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
