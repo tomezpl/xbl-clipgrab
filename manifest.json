@@ -6,7 +6,8 @@
     "content_scripts": [
         {
             "matches": [
-                "https://account.xbox.com/*/gameclip/*"
+                "https://account.xbox.com/*/gameclip/*",
+                "https://account.xbox.com/*/gameclips"
             ],
             "js": ["content.js"]
         }
